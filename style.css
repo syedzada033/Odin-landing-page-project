@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
     margin: 0;
     padding: 0;  
   }
   
+  body{
+    font-family: 'Roboto', sans-serif;
+    
+  }
   
   .first-section{
       background-color: #1f2937;
@@ -11,4 +17,14 @@
   #header-logo{
       font-size: 24px;
       color: #f9faf8;
+  }
+
+  .header-link{
+    font-size: 18px;
+    color: #e5e7eb;
+  }
+
+ul{
+    display: flex;
+    flex-direction: row;
   }
