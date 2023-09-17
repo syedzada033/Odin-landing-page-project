@@ -41,3 +41,40 @@ ul{
     justify-content: center;
     align-items: center;
   }
+
+  h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+  }
+
+  .content{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+  }
+.content-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  .contetn-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img{
+    margin: 40px;
+  }
+
+.p-first{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-left: 90px;
+}
